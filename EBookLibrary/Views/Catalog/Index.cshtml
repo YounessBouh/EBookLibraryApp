@@ -1,0 +1,35 @@
+﻿@model EBookLibrary.Models.Catalog.LibraryAssetIndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in @Model.LibraryAssetListing)
+        {
+        <tr>
+            <td>
+                <div>
+                    <a asp-controller="Catalog" asp-action="Details" asp-route-id="@item.Id">
+                        <img src="/Images/@item.ImageUrl" height="210" width="180">
+                    </a>                  
+                </div>
+            </td>
+            <td>@item.Title</td>
+            <td>@item.Author</td>
+            <td>@item.Year</td>
+        </tr>
+        }
+        
+
+    </tbody>
+</table>

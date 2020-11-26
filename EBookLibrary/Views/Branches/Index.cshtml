@@ -1,0 +1,28 @@
+﻿
+@model EBookLibrary.Models.Branche.BranchIndexModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="card-group">
+
+    @foreach(var item in Model.ListingModels)
+     {
+      <div class="card ml-3">
+        <img src="/Images/@item.ImageUrl" height="300" width="330" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Name</h5>
+            <p class="card-text">@item.Description</p>
+            <p class="card-text">Addres : @item.Address   </p>
+            <p class="card-text">Phone : @item.Telephone</p>
+        </div>
+    </div>
+
+    }
+</div>
+
+   
+

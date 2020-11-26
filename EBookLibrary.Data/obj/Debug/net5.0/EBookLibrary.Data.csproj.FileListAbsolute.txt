@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\bin\Debug\net5.0\EBookLibrary.Data.deps.json
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\bin\Debug\net5.0\EBookLibrary.Data.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\bin\Debug\net5.0\EBookLibrary.Data.pdb
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.csprojAssemblyReference.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.AssemblyInfo.cs
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Data\obj\Debug\net5.0\EBookLibrary.Data.pdb

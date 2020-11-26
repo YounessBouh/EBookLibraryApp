@@ -1,0 +1,50 @@
+﻿@model EBookLibrary.Models.Catalog.RegisterIndexModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var date = DateTime.Now;
+}
+
+
+
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-5">
+            <input asp-for="id" type="hidden">
+            <label>Full Name</label>
+            <input asp-for="FullName" type="text" class="form-control" id="FullName" required>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label>Since</label>
+            <input asp-for="Since" type="date" class="form-control" id="since">
+        </div>
+        <div class="form-group col-md-3">
+            <label>Until</label>
+            <input asp-for="Untill" type="date" class="form-control" id="until">
+        </div>
+       
+
+    </div>
+
+    <button type="submit" asp-controller="Catalog" asp-action="CheckOut" class="btn btn-success"> Check Out</button>
+</form>
+
+
+<script>
+    $(document).ready(function () {
+        var now = new Date();
+
+        var day = ("0" + now.getDate()).slice(-2);
+        var month = ("0" + (now.getMonth() + 1)).slice(-2);
+
+        var today = now.getFullYear() + "-" + (month) + "-" + (day);
+
+        $('#since').val(today);
+        $('#until').val(today);
+      //  $('#until').val($('#since').val());
+
+   
+    });
+</script>

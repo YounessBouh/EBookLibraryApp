@@ -1,0 +1,87 @@
+﻿@model EBookLibrary.Models.Catalog.AssetDetailsModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="~/Images/@Model.ImageUrl" height="280" width="250">
+        </div>
+        <div class="col-md-6">
+            <p><b>Title : @Model.Title</b></p>
+            <p><b>Cost :$ @Model.Cost</b></p>
+            <p><b>Year : @Model.Year</b></p>
+
+            @if (Model.status == "Available")
+            {
+                <p class="text-success"><b> Status :  @Model.status</b></p>
+                <p>
+                    <a asp-controller="Catalog" asp-action="Register" asp-route-id="@Model.Id" class="btn btn-success ml-3">Check Out</a>
+                    <a asp-controller="Catalog" asp-action="Lost" asp-route-id="@Model.Id" class="btn btn-danger">Book Lost</a>
+                </p>
+            }
+            @if (Model.status == "checkedOut")
+            {
+                <p class="text-info"><b> Status :  </b>@Model.status</p>
+                <p>
+                    <a asp-controller="Catalog" asp-action="CheckIn" asp-route-id="@Model.Id" class="btn btn-warning ml-3">Check In</a>
+                    <a asp-controller="Catalog" asp-action="HoldOn" asp-route-id="@Model.Id" class="btn btn-info">hold on</a>
+                </p>
+            }
+            @if (Model.status == "Lost")
+            {
+                <p class="text-danger"><b> Status : @Model.status </b></p>
+                <p>
+                    <a asp-controller="Catalog" asp-action="BookFound" asp-route-id="@Model.Id" class="btn btn-primary ml-3">Book Found</a>
+                </p>
+            }
+
+        </div>
+     </div>
+</div>
+     
+
+
+@if(Model.checkOutHistory!=null)
+{
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <h4> Check Out History</h4>
+        <table class="table table-striped table-dark">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Since</th>
+                    <th>Until</th>
+                    <th>Book has been returend</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var item in @Model.checkOutHistory)
+                {
+                    <tr>
+                        <td>@item.FullName</td>
+                        <td>@item.Since.ToShortDateString()</td>
+                        <td>@item.Until.ToShortDateString()</td>
+                        @if (item.Confirm)
+                        {
+                            <td>Yes</td>
+                        }
+                        else
+                        {
+                            <td>Not yet</td>
+                        }
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+}
+

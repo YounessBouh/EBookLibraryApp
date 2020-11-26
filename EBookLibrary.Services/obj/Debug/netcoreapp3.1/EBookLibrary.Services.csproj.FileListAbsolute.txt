@@ -1,0 +1,12 @@
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\bin\Debug\netcoreapp3.1\EBookLibrary.Services.deps.json
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\bin\Debug\netcoreapp3.1\EBookLibrary.Services.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\bin\Debug\netcoreapp3.1\EBookLibrary.Services.pdb
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.pdb
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.csprojAssemblyReference.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.AssemblyInfo.cs
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.csproj.CopyComplete
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Services\obj\Debug\netcoreapp3.1\EBookLibrary.Services.pdb

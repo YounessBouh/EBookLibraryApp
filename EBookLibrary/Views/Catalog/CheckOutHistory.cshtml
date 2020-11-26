@@ -1,0 +1,44 @@
+﻿@model EBookLibrary.Models.Catalog.CheckOutIndexModel
+@{
+    ViewData["Title"] = "CheckOutHistory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Full Name</th>
+            <th>Since</th>
+            <th>Until</th>
+            <th>Book has been returend</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model.checkOutHistoryModel)
+        {
+        <tr>
+            <td>
+                <div>
+                    <img src="/Images/@item.LibraryAsset.ImageUrl" height="130" width="100">
+                </div>
+            </td>
+            <td>@item.LibraryAsset.Title</td>
+            <td>@item.FullName</td>
+            <td>@item.Since.ToShortDateString()</td>
+            <td>@item.Until.ToShortDateString()</td>
+             @if(item.Confirm)
+             {
+                <td>Yes</td>
+             }
+             else
+             {
+                 <td>Not yet</td>
+             }
+        </tr>
+        }
+
+
+    </tbody>
+</table>

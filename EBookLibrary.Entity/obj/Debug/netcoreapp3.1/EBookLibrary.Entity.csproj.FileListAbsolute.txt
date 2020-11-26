@@ -1,0 +1,12 @@
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.deps.json
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.runtimeconfig.json
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.runtimeconfig.dev.json
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\bin\Debug\netcoreapp3.1\EBookLibrary.Entity.pdb
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.AssemblyInfo.cs
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.dll
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.pdb
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.genruntimeconfig.cache
+C:\Users\User\Documents\Projects\EBookLibrary\EBookLibrary\EBookLibrary.Entity\obj\Debug\netcoreapp3.1\EBookLibrary.Entity.csprojAssemblyReference.cache
